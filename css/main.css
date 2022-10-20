@@ -52,7 +52,7 @@ main section h2 {
   border-radius: 25px;
 }
 #main02 .inner article:nth-of-type(2) span {
-  background: #fff url('../assets/img/brand-02.PNG') no-repeat center / cover;
+  background: #fff url('../assets/img/brand-02.png') no-repeat center / cover;
 }
 #main02 .inner article:nth-of-type(3) span {
   background: #fff url('../assets/img/brand-03.jpg') no-repeat center / contain;
