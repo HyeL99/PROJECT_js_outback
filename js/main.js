@@ -374,6 +374,9 @@ $('.gnbList a').click(function(){
     }
     
 });
+$('button[type = "submit"]').click(function(e){
+    e.preventDefault();
+})
 
 $('#popupWrap #loginCard form .wrap span').click(function(){
     $(this).toggleClass('focus');
