@@ -368,6 +368,8 @@ $('.gnbList a').click(function(){
         $(this).parent('li').toggleClass('active');
         $(this).children('button').children('i').toggleClass('fa-caret-down');
         $(this).children('button').children('i').toggleClass('fa-caret-up');
+    } else {
+        location.href =$(this).siblings('ul').children('li:first-child').children('a').attr('href')
     }
     
 });
@@ -380,11 +382,11 @@ $('ul.menuWrap li:eq(0) a').click(function(){
     $('#popupWrap').addClass('active'); 
 });
 $('ul.menuWrap li:eq(1) a').click(function(){
-    $('#loginCard').addClass('active');
+    $('#translateCard').addClass('active');
     $('#popupWrap').addClass('active'); 
 });
 $('ul.menuWrap li:eq(2) a').click(function(){
-    $('#translateCard').addClass('active');
+    $('#loginCard').addClass('active');
     $('#popupWrap').addClass('active'); 
 });
 $('#popupWrap button.closeCard').click(function(){
