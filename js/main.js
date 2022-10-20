@@ -350,7 +350,7 @@ $('#newsBtn').click(function(){
     setBoard('news');
 });
 
-$('#main05 .contentWrap .front button').click(function(){
+$('#main05 .contentWrap .front > button').click(function(){
     $('#main05 .contentWrap').addClass('active');
 });
 $('#main05 .contentWrap .back button.backBtn').click(function(){
