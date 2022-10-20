@@ -355,6 +355,7 @@ $('#main05 .contentWrap .front button').click(function(){
 });
 $('#main05 .contentWrap .back button.backBtn').click(function(){
     $('#main05 .contentWrap').removeClass('active');
+    console.log(2)
 });
 
 $('#gnbBtn').click(function(){
