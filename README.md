@@ -1,6 +1,6 @@
 # 아웃백 스테이크 하우스 리디자인
 
-<https://hyel99.github.io/outback/>
+<https://hyel99.github.io/PROJECT_js_outback/>
 
 기존의 메뉴 소개가 중심이 되는 아웃백 사이트와는 다르게 ‘아웃백 스테이크 하우스’라는 회사 소개에 좀 더 집중하여 홈화면을 리디자인하였으며, 반응형도 적용하였습니다.
 
